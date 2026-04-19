@@ -53,7 +53,7 @@
                 },
                 {
                     "id": "daily_world_syndicate_quills",
-                    "text": "퀴를",
+                    "text": "퀄",
                     "icon": "syndicates/TheQuillsSigil.png",
                     "location": "지구, 시터스",
                     "prereq": "내면의 전쟁"
