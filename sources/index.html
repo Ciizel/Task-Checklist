@@ -45,7 +45,7 @@
         <div class="flex flex-wrap justify-between items-center mb-4">
             <div class="mb-2 sm:mb-0">
                 <h1 class="text-2xl md:text-3xl font-bold">Warframe Task Checklist</h1>
-                <p class="app-description text-base">Track your daily, weekly, and other Warframe tasks.</p>
+                <p class="app-description text-base">일일, 주간 및 기타 워프레임 과제를 관리하세요.</p>
             </div>
             <div class="flex items-center space-x-2 mt-2 sm:mt-0">
                  <button id="theme-toggle-button" aria-label="Toggle theme">
@@ -66,7 +66,7 @@
         <div id="checklist-container">
             <section id="daily-tasks-section" class="mb-8">
                 <h2 class="text-xl font-semibold mb-1 border-b pb-2 text-indigo-700 section-toggle" aria-expanded="true" aria-controls="daily-tasks-content">
-                    <span class="flex-grow">Daily Tasks <span class="reset-time-local" id="daily-reset-local-time">(Resets ...)</span></span>
+                    <span class="flex-grow">일일 작업 <span class="reset-time-local" id="daily-reset-local-time">(Resets ...)</span></span>
                     <button class="hide-section-button" data-section-id="daily-tasks-section">Hide Section</button>
                     <svg class="collapse-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
@@ -79,7 +79,7 @@
 
             <section id="weekly-tasks-section" class="mb-8">
                 <h2 class="text-xl font-semibold mb-1 border-b pb-2 text-teal-700 section-toggle" aria-expanded="true" aria-controls="weekly-tasks-content">
-                    <span class="flex-grow">Weekly Tasks <span class="reset-time-local" id="weekly-reset-local-time">(Resets ...)</span></span>
+                    <span class="flex-grow">주간 작업 <span class="reset-time-local" id="weekly-reset-local-time">(Resets ...)</span></span>
                     <button class="hide-section-button" data-section-id="weekly-tasks-section">Hide Section</button>
                      <svg class="collapse-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
@@ -92,7 +92,7 @@
 
             <section id="other-tasks-section" class="mb-8">
                 <h2 class="text-xl font-semibold mb-1 border-b pb-2 text-purple-700 section-toggle" aria-expanded="true" aria-controls="other-tasks-content">
-                    <span class="flex-grow">Other Tasks</span>
+                    <span class="flex-grow">기타 작업</span>
                     <button class="hide-section-button" data-section-id="other-tasks-section">Hide Section</button>
                      <svg class="collapse-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
@@ -105,12 +105,12 @@
         </div>
 
          <div class="mt-4 text-right">
-             <span id="save-status" class="text-sm text-green-600 opacity-0">Saved!</span>
-             <p id="last-saved-timestamp" class="mt-1">Loading...</p>
+             <span id="save-status" class="text-sm text-green-600 opacity-0">저장됨!</span>
+             <p id="last-saved-timestamp" class="mt-1">로딩 중...</p>
              <p id="storage-notice" class="mt-1">Your progress is saved locally.</p>
          </div>
 
-         <p class="text-sm italic mt-8">*Remember, you don't have to do everything! Prioritize tasks based on your current goals and progress.*</p>
+         <p class="text-sm italic mt-8">*기억하세요, 모든 일을 다 할 필요는 없습니다! 현재 목표와 진행 상황을 바탕으로 업무의 우선순위를 정하세요.*</p>
 
          <div class="text-center mt-8 footer-links">
              <a href="https://warframetools.com" target="_blank" rel="noopener noreferrer">WarframeTools</a>
@@ -136,13 +136,13 @@
     <div id="slideout-menu-overlay">
         <div id="menu-content-box">
             <div class="menu-header">
-                <span class="menu-title">Options</span>
+                <span class="menu-title">옵션</span>
                 <button id="menu-close-button" aria-label="Close menu">&times;</button>
             </div>
-            <button id="reset-daily-button" class="menu-btn">Reset Daily Checks</button>
-            <button id="reset-weekly-button" class="menu-btn">Reset Weekly Checks</button>
-            <button id="reset-button" class="menu-btn">Reset All Checks</button>
-            <button id="unhide-tasks-button" class="menu-btn">Unhide All Tasks</button>
+            <button id="reset-daily-button" class="menu-btn">체크 초기화 일일</button>
+            <button id="reset-weekly-button" class="menu-btn">체크 초기화 주간</button>
+            <button id="reset-button" class="menu-btn">체크 초기화 전체</button>
+            <button id="unhide-tasks-button" class="menu-btn">모든 작업 표시</button>
         </div>
     </div>
 
