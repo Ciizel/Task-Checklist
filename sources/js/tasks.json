@@ -7,14 +7,14 @@
         },
         {
             "id": "daily_craft_forma",
-            "text": "제작 (포르마): 새로운 포르마 설계도 제작 확인 (수령/제작).",
+            "text": "제작 (포르마): 새로운 포르마 설계도 제작 확인. (수령/제작)",
             "icon": "IconBuild.png",
             "location": "오퍼레이션 베이스",
             "terminal": "주조소"
         },
         {
             "id": "daily_craft_other",
-            "text": "제작 (기타): 재사용 가능한 설계도 확인 (주조소/모바일 앱 확인).",
+            "text": "제작 (기타): 재사용 가능한 설계도 확인. (주조소/모바일 앱 확인)",
             "icon": "IconBuild.png",
             "location": "오퍼레이션 베이스",
             "terminal": "주조소"
@@ -27,7 +27,7 @@
         },
         {
             "id": "daily_syndicate_spend",
-            "text": "신디케이트 (진영): 평판이 최대치 확인 및 소비 (성유물 팩, 보스포르 팩 등).",
+            "text": "신디케이트 (진영): 평판이 최대치 확인 및 소비. (성유물 팩, 보스포르 팩 등)",
             "icon": "ReputationSmall.png",
             "location": "오퍼레이션 베이스/아무 릴레이",
             "terminal": "신디케이트"
@@ -125,7 +125,7 @@
         },
         {
             "id": "daily_sortie",
-            "text": "출격: 일일 출격 미션을 완료",
+            "text": "출격: 일일 출격 미션을 완료.",
             "icon": "Sortie.png",
             "location": "오퍼레이션 베이스",
             "terminal": "성계지도",
@@ -133,7 +133,7 @@
         },
         {
             "id": "daily_focus",
-            "text": "포커스: 일일 포커스 획득 (예: 성소 맹습).",
+            "text": "포커스: 일일 포커스 획득. (예: 성소 맹습)",
             "icon": "FocusLensFocus.png",
             "prereq": "두 번째 꿈"
         },
@@ -151,14 +151,14 @@
             "subtasks": [
                 {
                     "id": "daily_acrithis",
-                    "text": "아크리티스: 일일 아케인 및 캡처라 상품을 확인하세요.",
+                    "text": "아크리티스: 일일 아케인 및 캡처라 상품 확인.",
                     "icon": "Acrithis.png",
                     "location": "두비리/도르미존",
                     "npc": "아크리티스"
                 },
                 {
                     "id": "daily_ticker_crew",
-                    "text": "티커: 고용 가능한 레일잭 승무원을 확인하세요.",
+                    "text": "티커: 고용 가능한 레일잭 승무원 확인.",
                     "icon": "IconCommand.png",
                     "location": "금성, 포르투나",
                     "npc": "티커",
@@ -166,7 +166,7 @@
                 },
                 {
                     "id": "daily_marie",
-                    "text": "마리: 오퍼레이터 및 앰프 모드를 구매하세요.",
+                    "text": "마리: 오퍼레이터 및 앰프 모드 구매.",
                     "icon": "Wisp.png",
                     "location": "라 카테드랄 (데이모스, 해부학의 성역)",
                     "npc": "마리",
@@ -178,17 +178,17 @@
     "weekly": [
         {
             "id": "weekly_nightwave_complete",
-            "text": "나이트웨이브: 주간 나이트웨이브 미션 완료",
+            "text": "나이트웨이브: 주간 나이트웨이브 미션 완료.",
             "icon": "NightwaveIconSimple.png"
         },
         {
             "id": "weekly_nightwave_spend",
-            "text": "나이트웨이브 (소비): 필요 시 나이트웨이브 크레딧을 사용 (오라 모드, 카탈리스트/리액터 등).",
+            "text": "나이트웨이브 (소비): 필요 시 나이트웨이브 크레딧 사용. (오라 모드, 카탈리스트/리액터 등)",
             "icon": "NightwaveIconSimple.png"
         },
         {
             "id": "weekly_ayatan",
-            "text": "아야탄 보물 사냥: 마루의 주간 미션 완료. (아야탄 조각 획득), ",
+            "text": "아야탄 보물 사냥: 마루의 주간 미션 완료. (아야탄 조각 획득)",
             "icon": "Maroo.png",
             "location": "화성, 마루의 암시장",
             "npc": "마루"
@@ -235,7 +235,7 @@
         },
         {
             "id": "weekly_search_pulses",
-            "text": "수색 펄스: 네트라셀 및 아르키메디아에 주간 수색 펄스 5개를 사용하세요.",
+            "text": "수색 펄스: 네트라셀 및 아르키메디아에 주간 수색 펄스 5개 사용.",
             "icon": "MagnifyingGlassIcon.png",
             "isParent": true,
             "subtasks": [
@@ -250,7 +250,7 @@
                 },
                 {
                     "id": "weekly_eda",
-                    "text": "엘리트 딥 아르키메디아: 주간 엘리트 딥 아르키메디아에 도전. (높은 집정관 샤드 획득 기회: 매우 고인물용).",
+                    "text": "엘리트 딥 아르키메디아: 주간 엘리트 딥 아르키메디아에 도전. (높은 집정관 샤드 획득 기회: 매우 고인물용)",
                     "icon": "Necraloid.png",
                     "location": "데이모스, 해부학의 성역",
                     "npc": "네크랄로이드",
@@ -259,7 +259,7 @@
                 },
                 {
                     "id": "weekly_eta",
-                    "text": "엘리트 템포럴 아르키메디아: 주간 엘리트 템포럴 아르키메디아에 도전 (높은 집정관 샤드 획득 기회: 매우 고인물용).",
+                    "text": "엘리트 템포럴 아르키메디아: 주간 엘리트 템포럴 아르키메디아에 도전 (높은 집정관 샤드 획득 기회: 매우 고인물용)",
                     "icon": "Kaya_.png",
                     "location": "홀바니아 중앙 쇼핑몰",
                     "npc": "카야",
