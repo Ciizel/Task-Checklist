@@ -95,7 +95,7 @@
                 },
                 {
                     "id": "daily_world_syndicate_holdfasts",
-                    "text": "홀드패스트",
+                    "text": "사수자들",
                     "icon": "syndicates/TheHoldfastsIcon.png",
                     "location": "자리만, 크리살리스",
                     "prereq": "자리만의 천사들"
